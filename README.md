@@ -1,46 +1,67 @@
-# Getting Started with Create React App
+# App-Employees
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+It is a basic SPA in which, after logging in correctly, it grants us permissions to access protected routes in which, through a call to the external api, we can consult the employees registered in the database, in addition to creating new employees.
 
-In the project directory, you can run:
 
-### `npm start`
+---
+## Try Out
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+After clone this respository,
+open the project console inside, run the command line, npm install then, npm start.
+Do not forget to enter with the following passwords:
+#### **Username:** *testing_user*
+#### **Password:** *123456*
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+```bash
+steps to install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# clone the repo
+git clone git@github.com:MarcoAlayn/...
 
-### `npm run build`
+# install dependencies
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# write the script to execute
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
+## Framework, languages & libraries:
 
-### `npm run eject`
+<ul>
+<li>Javascript ✨</li> 
+<li>Typescript 📘</li>
+<li>React 🎵</li>
+<li>Redux Toolkit ⚛️</li>
+<li>Bootstrap 🎨</li>
+<li>CSS 🖌️</li>
+<li>Axios 🎁</li>
+<li>React-Router-Dom 🚦</li>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+</ul>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
+## Project Screens
+##### Login
+<image
+  src="./src/images/login.png"
+  alt="Login"
+  caption="Login">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+  ##### Employee Data
+<image
+  src="./src/images/Table_Employee.png"
+  alt="Employee Data"
+  caption="Employee Data">
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+---
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://www.linkedin.com/in/marcorobles-developer">
+<image
+  src="./src/images/footer git hub.png"
+  >
+  </a>
